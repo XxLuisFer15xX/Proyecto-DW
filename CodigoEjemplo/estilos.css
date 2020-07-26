@@ -1,0 +1,21 @@
+body {
+    font-size: 4rem;
+}
+
+.flex-container {
+    display: flex;
+    background: #FDFCDC;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+}
+
+.flex-item {
+    border: 1px solid #000;
+    margin: 1rem;
+    background: #0081A7;
+    font-size: 20px;
+    height: 100px;
+    color: #F07167;
+}

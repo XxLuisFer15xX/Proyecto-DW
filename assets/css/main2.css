@@ -1,0 +1,23 @@
+#header nav.use-middle:after {
+    background-color: #FFE66D;
+}
+
+#header>*:before {
+    background-color: #FFE66D;
+}
+
+.flex-container {
+    width: 100%;
+    position: fixed;
+    z-index: 4;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.flex-items {
+    border: 1px solid #000;
+    background: #0081A7;
+    color: #F07167;
+    margin: 1rem;
+}
